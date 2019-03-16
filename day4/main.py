@@ -14,19 +14,19 @@ if __name__ == '__main__':
              print(i)
         elm=input("请输入服务项目:")
         elm=int(elm)
-        # if elm==1:
-        #     pp.checkSex()
-        # if elm==2:
-        #     pp.checkSet()
-        # if elm==3:
-        #     emal=input("请输入您的邮箱地址：")
-        #     pp.checkEmail(emal)
-        # if elm==4:
-        #     num=input("请输入一串数字（注意数字个数为大于1的奇数个数）:")
-        #     pp.checkNum(num)
-        # if elm==0:
-        #     print("正在退出.....")
-        #     break
+        if elm==1:
+            pp.checkSex()
+        if elm==2:
+            pp.checkSet()
+        if elm==3:
+            emal=input("请输入您的邮箱地址：")
+            pp.checkEmail(emal)
+        if elm==4:
+            num=input("请输入一串数字（注意数字个数为大于1的奇数个数）:")
+            pp.checkNum(num)
+        if elm==0:
+            print("正在退出.....")
+            break
         nset={
             1:pp.checkSex,
             2:pp.checkSet,

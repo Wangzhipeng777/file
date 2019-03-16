@@ -1,0 +1,6 @@
+Python的六大基本数据类型:
+number，string，list，tuple，sets,dictionary
+2)列举3个学过的Python模块，每个模块下各列举两个常用的方法
+def fors(nlist):
+   for i in nlist
+       print(i)
